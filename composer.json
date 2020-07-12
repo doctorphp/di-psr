@@ -1,0 +1,28 @@
+{
+	"name": "doctor/di-psr",
+	"description": "Doctor DI with PSR-11 implementation (PHP-DI)",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Pavel Janda",
+			"email": "me@paveljanda.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"Doctor\\DI\\PSR\\": "src/"
+		}
+	},
+	"require": {
+		"psr/http-message": "^1.0",
+		"php-di/php-di": "^6.2",
+		"filp/whoops": "^2.7",
+		"doctor/doctor": "dev-master"
+	},
+	"require-dev": {
+		"gamee/php-code-checker-rules": "^2.0"
+	}
+}
