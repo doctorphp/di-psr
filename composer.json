@@ -17,10 +17,11 @@
 		}
 	},
 	"require": {
+		"doctor/http": "dev-master",
+		"doctor/rest": "dev-master",
 		"psr/http-message": "^1.0",
 		"php-di/php-di": "^6.2",
-		"filp/whoops": "^2.7",
-		"doctor/doctor": "dev-master"
+		"filp/whoops": "^2.7"
 	},
 	"require-dev": {
 		"gamee/php-code-checker-rules": "^2.0"
